@@ -27,9 +27,16 @@ print("The factorial of",num,"is",factorial)
 # TODO: Using Recursion
 
 def fact(n):
-   return 1 if (n==1 or n==0) else n * fact(n - 1); 
+   return 1 if (n==1 or n==0) else n * fact(n - 1)
+
+def fact2(n):
+    if n == 1 or n == 0:
+        return 1
+    else:
+        return n * fact(n - 1)
 
 print(fact(10))
+print("fact2", fact2(10))
 
 # =============
 #TODO: Using built-in function - factorial()
