@@ -1,4 +1,4 @@
-
+#======================================
 # TODO: DECORATORS
 # * Decorators in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented the @decorator_name in Python and are called in a bottom-up fashion. For example:
 
