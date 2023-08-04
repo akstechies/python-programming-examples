@@ -1,11 +1,12 @@
 #  156 = 1 + 5 + 6 = 12 , 156 % 12 = 0
 
-num = 156
+num = 5764231
+tempNum = num
 result = 0
-while num > 0:
-    temp = num % 10
+while tempNum > 0:
+    temp = tempNum % 10
     result += temp
-    num //= 10
+    tempNum //= 10
 
 if  num % result == 0:
     print("Harshadwa")
